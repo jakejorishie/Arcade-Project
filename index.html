@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <title>Connect Four</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <script src='app.js'></script>
+      </head>
+      <body>
+          <div id="container">
+              <div id="heading">
+                <img src="images.png" class="main-photo">
+              <h1 id="header">CONNECT - 4</h1>
+              <img src="images.png" class="main-photo">
+          </div>
+              <h2 id="sub-header">Create A Line Of Four In Any Direction And Win!</h2>
+              <span class="player-names">
+                  <button id="player-one-name" class="name-button" onclick="enterNameOne()">Player 1</button>
+                  <button id="player-two-name" class="name-button" onclick="enterNameTwo()">Player 2</button>
+              </span>
+              <div id="board-container">
+
+              </div>
+              <div id="play-again">
+                  <button id="reset" onclick="playAgain()">Play Again</button>
+              </div>
+          </div>
+          <footer>
+            <div class="foot">
+            <a id="wiki-icon" href="http://www.wikipedia.org/wiki/Connect_Four" target="_blank">
+                <img src="wiki.png">
+                </a>
+                <a id="hasbro-icon" href="http://shop.hasbro.com/en-us/product/the-classic-game-of-connect-4:80FB5BCA-5056-9047-F5F4-5EB5DF88DAF4" target="_blank">
+                    <img src="hasbro.png">
+                    </a>
+            </div>
+        </footer>
+      </body>
+    </html>
